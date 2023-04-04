@@ -1,1 +1,13 @@
-
+:root{
+    --verde: #70E000;
+    --musgo:#90A955;
+    --beje:#F8EDEB;
+    --rosa:#FF5D8F;
+    --verde-escuro:#006400;
+}
+.cabecalho{
+    beckground-color: var(--musgo);
+}
+.logo{
+    width: 10%;
+}
