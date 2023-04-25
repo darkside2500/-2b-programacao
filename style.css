@@ -5,9 +5,44 @@
     --rosa:#FF5D8F;
     --verde-escuro:#006400;
 }
+*{
+    margin: 0;
+    padding: 1;
+}
 .cabecalho{
-    beckground-color: var(--musgo);
+    background-color: var(--rosa);  
+    display: flex;
+    justify-content: stretch;
 }
 .logo{
-    width: 10%;
+    width: 7%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.menu-item{
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: var(--verde);
+}
+.principal{
+    background-color: var(--verde);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-titulo{
+    font-size: 50px;
+    padding: 20px;
+}
+.principal-imagem{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+.principal-texto{
+font-size: 20px;
+padding: 20px;
 }
